@@ -13,8 +13,8 @@ A lightweight, Command Line Interface (CLI) application built with **Python** an
   - `Expires Today`: Expiry exactly matches the client host machine's system date.
   - `Expires Soon`: Items entering critical expiration window (within the next 7 days).
   - `OK`: Safe inventory status with viable commercial buffers.
-- ** Custom Threshold Projections: ** Query and filter future-critical items by passing custom parameters.
-- ** Background Service Interactivity: ** Leverages cross-platform hooks to deliver push alerts for items flagged as expired.
+- **Custom Threshold Projections:** Query and filter future-critical items by passing custom parameters.
+- **Background Service Interactivity:** Leverages cross-platform hooks to deliver push alerts for items flagged as expired.
 
 ---
 
