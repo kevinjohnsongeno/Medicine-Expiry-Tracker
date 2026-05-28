@@ -6,15 +6,15 @@ A lightweight, Command Line Interface (CLI) application built with **Python** an
 
 ## Features
 
-- ** Inventory Input Validation:** Add new medicines securely with strict data formatting and automatic parsing for expiry dates (`DD-MM-YYYY`).
-- ** Structural Terminal UI:** Displays structured inventories dynamically inside the terminal with robust alignment padding (`<20`, `<15`).
-- ** Dynamic Real-time Statuses:** Automatically tracks chronological safety margins using conditional database matrix evaluation:
+- ** Inventory Input Validation: ** Add new medicines securely with strict data formatting and automatic parsing for expiry dates (`DD-MM-YYYY`).
+- ** Structural Terminal UI: ** Displays structured inventories dynamically inside the terminal with robust alignment padding (`<20`, `<15`).
+- ** Dynamic Real-time Statuses: ** Automatically tracks chronological safety margins using conditional database matrix evaluation:
   - `Expired`: Item's shelf life has ended.
   - `Expires Today`: Expiry exactly matches the client host machine's system date.
   - `Expires Soon`: Items entering critical expiration window (within the next 7 days).
   - `OK`: Safe inventory status with viable commercial buffers.
-- ** Custom Threshold Projections:** Query and filter future-critical items by passing custom parameters.
-- ** Background Service Interactivity:** Leverages cross-platform hooks to deliver push alerts for items flagged as expired.
+- ** Custom Threshold Projections: ** Query and filter future-critical items by passing custom parameters.
+- ** Background Service Interactivity: ** Leverages cross-platform hooks to deliver push alerts for items flagged as expired.
 
 ---
 
